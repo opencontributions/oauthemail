@@ -1,12 +1,12 @@
-###User email retrieval via Facebook, Google and Twitter OAuth
+### User email retrieval via Facebook, Google and Twitter OAuth
 
-####Project goal
+#### Project goal
 
 To offer minimal authentication flows for the above three providers and retrieval of user email addresses for use in part of a more complete login system.
 
 Each provider subclass should be as compact as possible, without compromising on legibility.
 
-####Example usage
+#### Example usage
 
 ```php
 require 'OpenC/autoload.php';
@@ -32,7 +32,7 @@ if (isset($_GET['twitter'])) {
 
 &nbsp;
 
-####Note
+#### Note
 To avoid accidental commits of authentication credentials, contributors are encouraged to use a pre-commit hook something like the following:
 	
 ```bash
